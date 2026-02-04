@@ -4,6 +4,7 @@
     "bookName": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co.com/khHN7Pk/9780143454212.jpg",
+    "description": "A classic exploration of wealth, class, and the elusive American Dream in 1920s New York.",
     "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
     "totalPages": 192,
     "rating": 4.5,
@@ -20,13 +21,14 @@
     "bookName": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "image": "https://i.ibb.co.com/0cv102J/To-Kill-a-Mockingbird.webp",
+    "description": "A powerful coming-of-age story set in the American South, dealing with racial injustice and moral integrity.",
     "review": "A searing portrayal of racial injustice and the loss of innocence in the American South, seen through the eyes of young Scout Finch. Harper Lee’s classic novel balances warmth and humor with the serious issues of rape and racial inequality, centering on her father, Atticus Finch, a lawyer who risks everything to defend a black man unjustly accused of a crime. A timeless story of courage, morality, and empathy.",
     "totalPages": 281,
     "rating": 4.8,
     "category": "Fiction",
     "tags": [
       "Drama",
-      "Social Justice"
+      "Justice"
     ],
     "publisher": "J.B. Lippincott & Co.",
     "yearOfPublishing": 1960
@@ -36,6 +38,7 @@
     "bookName": "1984",
     "author": "George Orwell",
     "image": "https://i.ibb.co.com/MprDyVt/51-BIA4rrae-L-AC-UF1000-1000-QL80.jpg",
+    "description": "A terrifying vision of a totalitarian future where government surveillance and thought control are absolute.",
     "review": "A chilling dystopian novel that depicts a totalitarian society under the constant surveillance of Big Brother. In Airstrip One, formerly Great Britain, Winston Smith struggles against the oppressive Party, which controls not just actions but thoughts through Newspeak and the Thought Police. Orwell’s masterpiece is a profound warning about the dangers of totalitarianism, propaganda, and the erasure of objective truth.",
     "totalPages": 328,
     "rating": 4.6,
@@ -52,12 +55,13 @@
     "bookName": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "image": "https://i.ibb.co.com/tYSWRfG/catcherrye-edited-1-800x.png",
+    "description": "An iconic novel of adolescent alienation following Holden Caulfield's journey through New York City.",
     "review": "The quintessential novel of teenage angst and rebellion, following sixteen-year-old Holden Caulfield after his expulsion from prep school. As he wanders through New York City, Holden rails against the 'phoniness' of the adult world while grappling with his own alienation, grief, and fear of growing up. J.D. Salinger’s voice-driven narrative captures the raw, confusing, and often painful transition from adolescence to adulthood.",
     "totalPages": 224,
     "rating": 4.3,
     "category": "Fiction",
     "tags": [
-      "Young Adult",
+      "Adult",
       "Identity"
     ],
     "publisher": "Little, Brown and Company",
@@ -68,6 +72,7 @@
     "bookName": "Pride and Prejudice",
     "author": "Jane Austen",
     "image": "https://i.ibb.co.com/YdQDMpn/81me-ud-V63-L-AC-UF1000-1000-QL80.jpg",
+    "description": "A witty romantic comedy about the social maneuvers and misunderstandings of 19th-century English gentry.",
     "review": "A beloved comedy of manners that explores love, reputation, and class in Regency England. The story follows the spirited and independent Elizabeth Bennet as she navigates societal expectations and her complex relationship with the wealthy, proud Fitzwilliam Darcy. Through sparkling wit and romantic tension, Austen delivers a timeless critique of first impressions and the social rigidities of her time.",
     "totalPages": 279,
     "rating": 4.7,
@@ -84,6 +89,7 @@
     "bookName": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "image": "https://i.ibb.co.com/xS8YvxL/81m-CE-uclx-L-UF1000-1000-QL80.jpg",
+    "description": "An epic adventure following Bilbo Baggins as he travels through Middle-earth to confront a dragon.",
     "review": "A prelude to The Lord of the Rings, this enchanting fantasy follows the comfortable and unadventurous hobbit Bilbo Baggins. Swept away by the wizard Gandalf and a company of thirteen dwarves, Bilbo embarks on a perilous quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, he discovers his own courage and a mysterious ring that will change the fate of Middle-earth.",
     "totalPages": 310,
     "rating": 4.9,
@@ -100,13 +106,14 @@
     "bookName": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
     "image": "https://i.ibb.co.com/989qMRW/42844155.jpg",
+    "description": "The magical beginning of a young boy's journey as he enters Hogwarts School of Witchcraft and Wizardry.",
     "review": "The first book in the global phenomenon introduces Harry Potter, an orphan who discovers on his eleventh birthday that he is a wizard. Whisked away to Hogwarts School of Witchcraft and Wizardry, Harry finds friendship, magic, and his true destiny. As he learns to fly on broomsticks and cast spells, he also uncovers the dark truth about his parents' death and the evil wizard Voldemort who seeks to return to power.",
     "totalPages": 309,
     "rating": 4.8,
     "category": "Fantasy",
     "tags": [
       "Magic",
-      "Young Adult"
+      "Adult"
     ],
     "publisher": "Bloomsbury",
     "yearOfPublishing": 1997
@@ -116,6 +123,7 @@
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co.com/zS9jsdK/18144590.jpg",
+    "description": "An allegorical novel about a shepherd boy’s quest to find his 'Personal Legend' and treasure.",
     "review": "A modern classic about following your dreams, The Alchemist tells the story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His journey takes him from the markets of Tangiers to the Egyptian desert, where a fateful encounter with the Alchemist reveals that the true treasure lies within. A poetic and inspiring fable about listening to your heart and pursuing your personal legend.",
     "totalPages": 177,
     "rating": 4.6,
@@ -132,6 +140,7 @@
     "bookName": "The Girl on the Train",
     "author": "Paula Hawkins",
     "image": "https://i.ibb.co.com/P6hfCmJ/Whats-App-Image-2024-05-22-at-11-21-25-2e21ae46.jpg",
+    "description": "A fast-paced psychological thriller centered on an unreliable witness and a mysterious disappearance.",
     "review": "A gripping psychological thriller that unravels the mystery of a missing woman through the eyes of an unreliable narrator. Rachel Watson, an alcoholic commuter, catches daily glimpses of a seemingly perfect couple from her train window. When the woman disappears, Rachel becomes entangled in the investigation, but her blackouts and obsession blur the line between memory and imagination, leading to shocking revelations.",
     "totalPages": 316,
     "rating": 4.2,
