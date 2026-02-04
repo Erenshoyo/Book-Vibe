@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   const menuItems = [
     { name: "Home", path: "/" },
-    { name: "Listed Books", path: "/listed-books" },
+    { name: "Listed Books", path: "/about" },
     { name: "Pages to Read", path: "/pages-to-read" },
   ];
   const Links = (
