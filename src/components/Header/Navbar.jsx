@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const menuItems = [
@@ -10,12 +11,12 @@ const Navbar = () => {
     <>
       {menuItems.map((item) => (
         <li key={item.name}>
-          <a
-            href={item.path}
+          <Link
+            to={item.path}
             className="text-[14px] font-medium border border-transparent hover:border-[#23BE04] hover:text-[#23BE04] rounded-lg transition-all duration-300"
           >
             {item.name}
-          </a>
+          </Link>
         </li>
       ))}
     </>
