@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home";
 // import About from "../pages/About/About"; // Import if needed
 import BookDetails from "../pages/BookDetails/BookDetails";
 import ReadList from "../pages/ReadList/ReadList";
+import PagesToRead from "../pages/PagesToRead/PagesToRead";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,14 @@ export const router = createBrowserRouter([
           return response.json();
         },
         Component: BookDetails,
+      },
+      {
+        path: "/pages-to-read",
+        loader: async () => {
+          const response = await fetch("/booksData.json");
+          return response.json();
+        },
+        Component: PagesToRead,
       },
     ],
   },
