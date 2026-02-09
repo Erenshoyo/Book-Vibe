@@ -48,7 +48,7 @@ const BookDetails = () => {
       style={{ fontFamily: '"Playfair Display", serif' }}
     >
       <img
-        className="w-full lg:w-auto object-contain p-8 lg:p-30 bg-slate-100 rounded-xl"
+        className="w-full lg:w-180 object-contain p-8 lg:p-30 bg-slate-100 rounded-xl"
         src={image}
         alt={bookName}
       />

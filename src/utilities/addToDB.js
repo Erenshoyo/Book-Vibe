@@ -1,4 +1,4 @@
-const getStoredReadBook = () => {
+export const getStoredReadBook = () => {
   const storedBooksString = localStorage.getItem("readList");
 
   if (storedBooksString) {
@@ -9,7 +9,7 @@ const getStoredReadBook = () => {
   }
 };
 
-const getStoredWishListBook = () => {
+export const getStoredWishListBook = () => {
   const storedBooksString = localStorage.getItem("wishList");
 
   if (storedBooksString) {
@@ -36,10 +36,10 @@ export const addToStoredReadDB = (id, bookName) => {
 export const addToStoredWishlistDB = (id, bookName) => {
   const storedBookData = getStoredWishListBook();
   if (storedBookData.includes(id)) {
-    alert(`${bookName} is already marked as Read.`);
+    alert(`${bookName} is already added to the wishlist.`);
   } else {
     storedBookData.push(id);
-    alert(`${bookName} is marked as read`);
+    alert(`${bookName} is added to the wishlist`);
     const data = JSON.stringify(storedBookData);
     localStorage.setItem("wishList", data);
     console.log(storedBookData);
