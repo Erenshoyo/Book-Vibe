@@ -4,6 +4,8 @@ import {
   addToStoredReadDB,
   addToStoredWishlistDB,
 } from "../../utilities/addToDB";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const BookDetails = () => {
   const { id } = useParams();
@@ -26,7 +28,9 @@ const BookDetails = () => {
     tags,
     yearOfPublishing,
   } = singleBook;
+
   const bName = bookName;
+
   const renderInfoRow = (label, value) => (
     <div className="flex items-center gap-5">
       <span className="w-40 text-gray-500">{label}</span>
@@ -47,6 +51,7 @@ const BookDetails = () => {
       className="min-h-screen p-8 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20"
       style={{ fontFamily: '"Playfair Display", serif' }}
     >
+      <ToastContainer position="top-right" autoClose={2000} />
       <img
         className="w-full lg:w-180 object-contain p-8 lg:p-30 bg-slate-100 rounded-xl"
         src={image}

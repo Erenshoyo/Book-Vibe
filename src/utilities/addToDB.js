@@ -1,3 +1,6 @@
+import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+
 export const getStoredReadBook = () => {
   const storedBooksString = localStorage.getItem("readList");
 
@@ -23,10 +26,10 @@ export const getStoredWishListBook = () => {
 export const addToStoredReadDB = (id, bookName) => {
   const storedBookData = getStoredReadBook();
   if (storedBookData.includes(id)) {
-    alert(`${bookName} is already marked as Read.`);
+    toast.warn(`${bookName} is marked as Read.`);
   } else {
     storedBookData.push(id);
-    alert(`${bookName} is marked as read`);
+    toast.success(`${bookName} is already marked as Read.`);
     const data = JSON.stringify(storedBookData);
     localStorage.setItem("readList", data);
     console.log(storedBookData);
@@ -36,10 +39,10 @@ export const addToStoredReadDB = (id, bookName) => {
 export const addToStoredWishlistDB = (id, bookName) => {
   const storedBookData = getStoredWishListBook();
   if (storedBookData.includes(id)) {
-    alert(`${bookName} is already added to the wishlist.`);
+    toast.warn(`${bookName} is already added to the wishlist.`);
   } else {
     storedBookData.push(id);
-    alert(`${bookName} is added to the wishlist`);
+    toast.success(`${bookName} is added to the wishlist`);
     const data = JSON.stringify(storedBookData);
     localStorage.setItem("wishList", data);
     console.log(storedBookData);
