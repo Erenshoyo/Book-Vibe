@@ -26,10 +26,10 @@ export const getStoredWishListBook = () => {
 export const addToStoredReadDB = (id, bookName) => {
   const storedBookData = getStoredReadBook();
   if (storedBookData.includes(id)) {
-    toast.warn(`${bookName} is marked as Read.`);
+    toast.warn(`${bookName} is already marked as read.`);
   } else {
     storedBookData.push(id);
-    toast.success(`${bookName} is already marked as Read.`);
+    toast.success(`${bookName} is marked as read.`);
     const data = JSON.stringify(storedBookData);
     localStorage.setItem("readList", data);
     console.log(storedBookData);
